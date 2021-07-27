@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+section {
+    padding: 40px 0px;
+    margin-top: 30px;
+}
+
+.section-header h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+    .section-header h2 {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+  }
+
+/* our categories section starts */
+
+.category-header {
+    color: #555555;
+}
+
+.our-categories .box {
+  padding: 15px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  border: 1px dotted rgb(122, 122, 122);
+  border-radius: 10px;
+}
+
+.our-categories .product-group {
+  margin-bottom: 30px;
+}
+
+.our-categories .box img {
+  padding-bottom: 20px;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+
+.our-categories .box h3 {
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  border-top: 2px blue dotted;
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.our-categories .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.our-categories .box:hover img {
+  transform: scale(1);
+}
+
+.our-categories .box:hover h3 {
+  transform: scale(1);
+}
+
+/* our categories section ends  */
+
+/* Testimonial Section Starts */
+
+.testimonials-header {
+    color: white;
+}
+
+.our-testimonials {
+  background-image: linear-gradient(90deg, #7c22f3, #e231ae);
+}
+
+.our-testimonials .testimonial-item {
+  text-align: center;
+  color: #fff;
+}
+
+.our-testimonials .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.our-testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.our-testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.our-testimonials .testimonial-item .quote-icon-left,
+.our-testimonials .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.our-testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.our-testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.our-testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.our-testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.our-testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.our-testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #106eea;
+}
+
+@media (min-width: 992px) {
+  .our-testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
+/* Testimonial Section Ends */
+
+/* our clients section starts */
+
+.clients-header {
+    color: #555555;
+}
+
+.our-clients .clients-slider .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.our-clients .clients-slider .swiper-slide img:hover {
+  opacity: 1;
+}
+
+.our-clients .clients-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.our-clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #4154f1;
+}
+
+.our-clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #4154f1;
+}
+
+/* our clients section ends */
+
+/* footer section starts */
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-image: linear-gradient(90deg, #7c22f3, #e231ae);
+}
+
+.footer .container h3 {
+  position: relative;
+  color: white;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.footer .container h3::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #ffeb3b;
+}
+
+/* about us section  starts*/
+
+.footer .company-logo {
+  width: 150px;
+}
+
+.footer .about-company p {
+  color: white;
+  padding: 5px 15px 5px 0;
+  margin: 10px 0;
+}
+
+.footer .read-more {
+  background-color: #e231ae;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid white;
+  transition: all ease-in-out 0.3s;
+}
+
+.footer .read-more:hover {
+  background: transparent;
+}
+
+/* about us section ends  */
+
+/* Quick Links Section starts */
+
+.footer .quick-links {
+  position: relative;
+}
+
+.footer .quick-links li {
+  list-style: none;
+}
+
+.footer .quick-links li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer .quick-links li a:hover {
+  color: #ffeb3b;
+}
+
+/* quick links section ends  */
+
+/* Contact Us Section start */
+
+.footer .info {
+  position: relative;
+  padding-right: 10px;
+}
+
+.footer .info li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+
+.footer .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer .info li span {
+  color: #fff;
+}
+
+.footer .info a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.footer .info a:hover {
+  color: #ffeb3b;
+}
+
+.footer .info p {
+  margin-bottom: 10px;
+}
+
+/* contact us section ends  */
+
+/* follow us section starts */
+
+.footer .follow-icon {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-gap: 10px;
+}
+
+.footer .follow-icon li {
+  list-style: none;
+}
+
+.footer .follow-icon li a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 100%;
+  border: 2px solid white;
+  transition: all ease-in-out 0.3s;
+  background-color: #fff;
+}
+
+.footer .follow-icon li a .bx {
+  color: black;
+  font-size: 20px;
+}
+
+.footer .follow-us-para {
+  color: white;
+}
+
+.footer .follow-icon li .instagram-icon:hover {
+  background: #e1306c;
+}
+
+.footer .follow-icon li .facebook-icon:hover {
+  background: #4267b2;
+}
+
+.footer .follow-icon li .twitter-icon:hover {
+  background: #1da1f2;
+}
+
+.footer .follow-icon li .linkedin-icon:hover {
+  background: #0077b5;
+}
+
+.footer .follow-icon li a:hover .bx {
+  color: white;
+}
+
+/* follow us section ends  */
+
+/* copyright area starts*/
+
+.copyright-text {
+  background: linear-gradient(90deg, #e231ae, #7c22f3);
+  border-top: 1px dotted white;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: #ffeb3b;
+}
+
+.footer-name:hover {
+  color: white;
+}
+
+.copyright-text br {
+  display: none;
+}
+
+/* copyright area ends */
+
+@media (max-width: 576px) {
+  .copyright-text br {
+    display: block;
+  }
+}
+
+/* footer section ends */
