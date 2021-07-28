@@ -6,28 +6,57 @@
 }
 
 section {
-    padding: 40px 0px;
-    margin-top: 30px;
+  padding: 40px 0px;
+  margin-top: 30px;
 }
 
 .section-header h2 {
-    text-align: center;
-    font-size: 45px;
-    font-weight: 600;
-    padding-bottom: 30px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 576px) {
-    .section-header h2 {
-        font-size: 35px;
-        padding-bottom: 25px;
-    }
+  .section-header h2 {
+    font-size: 35px;
+    padding-bottom: 25px;
   }
+}
+
+/* top slider section strats */
+
+
+/* top slider section ends */
+
+/* welcome section starts */
+
+.welcome-message {
+  background-image: linear-gradient(90deg, #7c22f3, #e231ae);
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  color: white;
+}
+
+.welcome-message .content {
+  text-align: center;
+}
+
+.welcome-message .download-image {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.welcome-message .download-image img {
+  max-width: 100%;
+}
+
+/* welcome section ends */
 
 /* our categories section starts */
 
 .category-header {
-    color: #555555;
+  color: #555555;
 }
 
 .our-categories .box {
@@ -78,11 +107,13 @@ section {
 /* Testimonial Section Starts */
 
 .testimonials-header {
-    color: white;
+  color: white;
 }
 
 .our-testimonials {
   background-image: linear-gradient(90deg, #7c22f3, #e231ae);
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .our-testimonials .testimonial-item {
@@ -162,7 +193,7 @@ section {
 /* our clients section starts */
 
 .clients-header {
-    color: #555555;
+  color: #555555;
 }
 
 .our-clients .clients-slider .swiper-slide img {
@@ -187,7 +218,10 @@ section {
   border: 1px solid #4154f1;
 }
 
-.our-clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+.our-clients
+  .clients-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #4154f1;
 }
 
@@ -202,6 +236,8 @@ section {
 
 .footer {
   background-image: linear-gradient(90deg, #7c22f3, #e231ae);
+  border-top-left-radius: 60px;
+  /* border-bottom-right-radius: 60px; */
 }
 
 .footer .container h3 {
@@ -394,6 +430,12 @@ section {
 }
 
 /* copyright area ends */
+
+@media (max-width: 992px) {
+  .footer .mb-30 {
+    margin-bottom: 30px;
+  }
+}
 
 @media (max-width: 576px) {
   .copyright-text br {
